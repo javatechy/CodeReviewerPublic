@@ -18,9 +18,17 @@ This is a Chrome extension(works on edge too) which reviews
 - Github private and public repo reviews (coming soon)
 
 Here's an example output:
-<img width="601" alt="image" src="https://user-images.githubusercontent.com/10302110/219318708-dd508803-a467-4dc6-8122-eeadd62eb179.png">
+
+Code review:
+
+<img width="397" alt="image" src="https://user-images.githubusercontent.com/10302110/219434376-1c017ee9-1fed-438d-902c-154b214e7219.png">
+
+Comments posted :
+
+Code snippet review : 
 
 ## Usage
+Make sure you close and reopen the extension to get the best behaviour. Sorry we are new!
 
 ### Azure devops PR review: 
 - Navigate to a Azure devops Pull Request that you want a review for.

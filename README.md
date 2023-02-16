@@ -89,24 +89,23 @@ https://user-images.githubusercontent.com/4030927/207372123-46d7ee8c-bd3e-4272-8
 
 ## Installation
 
-You can install `codereview.gpt` from the [Chrome Web Store](https://chrome.google.com/webstore/detail/codereviewgpt/amdfidcajdihmbhmmgohhkoaijpkocdn) or build it from source locally.
+- Clone or download the zip of this repo 
 
-### From the Chrome Web Store (recommended)
+- Go to edge://extensions in your browser.
 
-Go to the [extension page](https://chrome.google.com) at the Chrome Web Store and add `codereview.gpt`.
+- Enable developer mode
 
-### From source
+  <img width="280" alt="image" src="https://user-images.githubusercontent.com/10302110/218680951-11a09d9a-95dc-4bcb-95a9-553ff7d75439.png">
 
-- Clone this repository `git clone foo && cd foo`
-- Install the dependencies `npm install`
-- Run the build script `npm run build`
-- Navigate to `chrome://extensions`
-- Enable Developer Mode
-- Click the 'Load unpacked' button and navigate to the `build` directory in the project
+- Click on `Load unpacked` on this page
+
+  <img width="735" alt="image" src="https://user-images.githubusercontent.com/10302110/218681042-17634a8d-78c1-4666-82c1-47cbbb27de61.png">
+
+- Select the folder where you have downloaded the repo code.
 
 ## Supported browsers
 
-Currently, only Chrome is supported
+Chrome and edge
 
 ## Permissions
 
@@ -114,11 +113,4 @@ This is a list of permissions the extension uses with the respective reason.
 
 - `activeTab` is used to get the URL or the active tab. This is needed to fetch the get the Pull Request details
 - `storage` is used to cache the responses from OpenAI
-
-## Credits
-
-This project is inspired by [clmnin/summarize.site](https://github.com/clmnin/summarize.site)
-
-## License
-
-Semantic Code Search is distributed under [AGPL-3.0-only](LICENSE.txt). For Apache-2.0 exceptions — <kiril@codeball.ai>
+- `scripting` to read the selected text from screen

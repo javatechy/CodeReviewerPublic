@@ -36,17 +36,19 @@
 
       <div id="azureContent" class="tabcontent">
         <div class="flex flex-row items-center text-sm">
-          <input type="password" class="col-sm-10 form-control" id="patToken" value=""
-            placeholder="Personal Access Token"> &nbsp; &nbsp;
+          <div class="invisible">
+            <input type="password" class="col-sm-10 form-control" id="patToken" value=""
+              placeholder="Personal Access Token"> &nbsp; &nbsp;
 
-          <div id="savePAT" class="text-lg border border-slate-900 hover:bg-slate-200 cursor-pointer px-2 rounded-md">
-            Save
-          </div> &nbsp; &nbsp; &nbsp;
+            <div id="savePAT" class="text-lg border border-slate-900 hover:bg-slate-200 cursor-pointer px-2 rounded-md">
+              Save
+            </div> &nbsp; &nbsp; &nbsp;
+          </div>
           <label for="myCheck">Post comments on PR</label> &nbsp;
           <input type="checkbox" id="postComments">
           &nbsp; &nbsp; &nbsp;
           <label for="myCheck">Review complete diff too</label> &nbsp;
-          <input type="checkbox" id="reivewCompleteDiff">  &nbsp;  &nbsp; &nbsp;
+          <input type="checkbox" id="reivewCompleteDiff"> &nbsp; &nbsp; &nbsp;
           <div id="rerun-btn"
             class="invisible text-lg border border-slate-900 hover:bg-slate-200 cursor-pointer px-2 rounded-md">
             run again

@@ -61,12 +61,7 @@ Here's an example output:
 
   <img width="735" alt="image" src="https://user-images.githubusercontent.com/10302110/218681042-17634a8d-78c1-4666-82c1-47cbbb27de61.png">
 
-- Select the folder where you have downloaded the repo code.
-
-### Get PAT token
-<img width="211" alt="image" src="https://user-images.githubusercontent.com/10302110/219079910-792abcd7-0c36-46b8-8b00-c0cd01ca8fb3.png">
-
-<img width="315" alt="image" src="https://user-images.githubusercontent.com/10302110/219082142-474337fd-e128-4269-8d36-0e243b626c63.png">
+- Select the folder where you have downloaded the repo code, you need to select the folder where `manifest.json` exists.
 
 ## Supported browsers
 

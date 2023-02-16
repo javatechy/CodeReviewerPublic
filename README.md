@@ -1,7 +1,6 @@
 
 
 # &lt;AI Code reviewer/&gt;
-
 <p align="center">
   <a href="#overview">🔍 Overview</a> •
   <a href="#usage">💻 Usage</a> •

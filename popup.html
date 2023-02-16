@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>AI Code reviewer</title>
+  <title><img>AI Code reviewer</title>
 </head>
 
 <body class="text-slate-900">
@@ -20,7 +20,7 @@
             &lt;AI Code reviewer/&gt;
             <span class="text-xs text-slate-400"><a
                 href="https://github.com/javatechy/CodeReviewerPublic/blob/main/README.md" target="_blank"
-                class="inline text-orange-600 hover:text-orange-500">Read me if you are stuck</a></span>
+                class="inline text-orange-600 hover:text-orange-500">Stuck? Read this</a></span>
           </div>
 
         </div>
@@ -48,11 +48,11 @@
           <label for="myCheck">Post comments on PR</label> &nbsp;
           <input type="checkbox" id="postComments">
           &nbsp; &nbsp; &nbsp;
-          <label for="myCheck">Review complete diff too</label> &nbsp;
-          <input type="checkbox" id="reivewCompleteDiff"> &nbsp; &nbsp; &nbsp;
+          <!-- <label for="myCheck">Review complete diff too</label> &nbsp;
+          <input type="checkbox" id="reivewCompleteDiff"> &nbsp; &nbsp; &nbsp; -->
           <div id="rerun-btn"
             class="invisible text-lg border border-slate-900 hover:bg-slate-200 cursor-pointer px-2 rounded-md">
-            run again
+            Review again
           </div>
           <br />
 
@@ -65,15 +65,25 @@
             <span id="pr-url"></span></p>
           </div>
         </div>
+        <br />
+
       </div>
 
       <div id="githubContent" class="tabcontent">
-        <p>Coming soon....</p>
+        <div class="flex flex-row items-center text-sm">
+          Coming soon... <br />
+        </div>
       </div>
       <div id="codeSnippetContent" class="tabcontent">
-        <span id="status-icon"></span><div class="flex flex-row items-center text-sm">
-          Select the code you want to review in the current tab and open &nbsp; <code> &lt;AI Code reviewer/&gt; </code> &nbsp; again
-          <br />
+        <div class="flex flex-row items-center text-sm">
+          <span id="status-icon-cs"></span>&nbsp;
+          Choose code to review in tab, then reopen &nbsp; <code> &lt;AI Code reviewer/&gt; </code>
+          &nbsp;           
+          <br/> &nbsp; &nbsp;
+          <div id="rerun-btn-cs"
+            class="text-lg border border-slate-900 hover:bg-slate-200 cursor-pointer px-2 rounded-md">
+            Review again
+          </div>
         </div>
       </div>
     </div>

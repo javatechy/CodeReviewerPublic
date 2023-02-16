@@ -6,23 +6,6 @@
 <img width="315" alt="image" src="https://user-images.githubusercontent.com/10302110/219082142-474337fd-e128-4269-8d36-0e243b626c63.png">
 
 # AICodeReviewer
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/sturdy-dev/codereview.gpt/main/public/icons/icon_128.png">
-</p>
-<p align='center'>
-    Review Azure devops repos pull Requests using ChatGPT.
-</p>
-<p align='center'>
-    <a href="https://github.com/sturdy-dev/codereview.gpt/blob/main/LICENSE.txt">
-        <img alt="GitHub"
-        src="https://img.shields.io/github/license/sturdy-dev/codereview.gpt">
-    </a>
-    <a href="https://chrome.google.com/webstore/detail/codereviewgpt/amdfidcajdihmbhmmgohhkoaijpkocdn">
-      <img alt="Chrome Web Store"
-      src="https://img.shields.io/chrome-web-store/v/amdfidcajdihmbhmmgohhkoaijpkocdn">
-    </a>
-</p>
 <p align="center">
   <a href="#overview">🔍 Overview</a> •
   <a href="#usage">💻 Usage</a> •

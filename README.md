@@ -2,6 +2,9 @@
 
 # &lt;AI Code reviewer/&gt;
 <p align="center">
+<img width="100" alt="image" src="https://github.com/javatechy/CodeReviewerPublic/blob/main/icons/icon.png">
+</p>
+<p align="center">
   <a href="#overview">🔍 Overview</a> •
   <a href="#usage">💻 Usage</a> •
   <a href="#faq">📖 FAQ</a> •
@@ -21,6 +24,7 @@ Here's an example output:
 Code review:
 
 <img width="397" alt="image" src="https://user-images.githubusercontent.com/10302110/219434376-1c017ee9-1fed-438d-902c-154b214e7219.png">
+
 
 Comments posted :
 
